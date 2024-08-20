@@ -10,7 +10,7 @@ public class Conexao {
         String url="jdbc:sqlserver://LAB02-MAQ20:1433;databaseName=bdJava;trustServerCertificate=true;encript=false";
         String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";
         String usuario="aluno";
-        String senha="dbo";
+        String senha="dba";
         Class.forName(driver);
         conexao = DriverManager.getConnection
         (url, usuario, senha);
